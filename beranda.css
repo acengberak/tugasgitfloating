@@ -5,11 +5,19 @@
    
 }
 
+.header {
+    widows: 900px;
+    height: 50px;
+    background-color: #1b1b1b;
+    margin: 0 auto;
+    border-radius: 20px; 
+}
+
 .content {
     width: 900px;
     height: 600px;
     background: #1b1b1b;
-    margin: 50px auto;
+    margin: 10px auto;
     border-radius: 25px;
     overflow: hidden;
     
@@ -79,15 +87,35 @@
     border-radius: 20px 0 0 20px;
 }
 
+.colom_overlay {
+    width: 600px;
+    height: 100px;
+    margin: -53px 0px 0px 50px;
+    background-color: white;
+    float: right;
+    opacity: 0.1;
+   
+   
+   
+
+}
+
 
 
 
 .logoteam img {
     width: 80px;
     height: 80px;
-    margin: 8px 25px auto;
+    margin: -51px 493px auto;
     opacity: 50%;
     float : right;
+    overflow: hidden;
+    position: absolute;
+
+    
+    
+    
+    
 }
 
 .colom_history {
